@@ -148,7 +148,7 @@ async def on_message(message):
         await message.channel.send(file=file)
         await message.channel.send("암살자라이더")
     if message.content.endswith("손"):
-        file = discord.File("pic\손목시계.jpg")
+        file = discord.File("pic\손목시계.JPG")
         await message.channel.send(file=file)
         await message.channel.send("손목시계라이더")
     if message.content.endswith("슈"):
