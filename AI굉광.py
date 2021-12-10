@@ -259,5 +259,13 @@ async def on_message(message):
         file = discord.File("pic\오렌지.jpeg")
         await message.channel.send(file=file)
         await message.channel.send("오렌지암즈 라이더")
+    if message.content.endswith("수"):
+        file = discord.File("pic\수확라이더.png")
+        await message.channel.send(file=file)
+        await message.channel.send("수확라이더")
+    if message.content.endswith("장"):
+        file = discord.File("pic\장애인.gif")
+        await message.channel.send(file=file)
+        await message.channel.send("장애인라이더")
 bot.run('') #<- insert your bot token! 
 
